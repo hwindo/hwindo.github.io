@@ -1,3 +1,23 @@
+- title: Retail System
+	description: Building complete retail system from Sales, Customer Relationship, Reporting, and Inventory Management, on top of company's 20 years of experience in clothing retail industry. Introducing new technologies, and possibilties for exciting future.
+	url:
+		thumb: /assets/img/projects/Revota-restock-landing-page.png
+		main: https://revota.id
+	meta:
+		role: Product Manager
+		year: 2023
+	tags:
+		- Product Management
+		- React JS
+		- Nest JS
+		- Fast API
+		- Ant Design
+		- Figma
+		- Warehouse Management System
+		- POS
+		- Retail
+		- CRM
+
 - title: E-Jet
   description: This is an exciting product, it is not yet published so minimum details can only be written. a custom made aircraft made for Microsoft Flight Simulator. It is using web technology for its glass cockpits. 
   url:
@@ -13,6 +33,21 @@
     - WASM
     - SVG
     - XML
+
+- title: Canvas App
+  description: A utility dashboard using Canvas as main attraction, it uses the latest Vue 3, Tailwind 3, Vuex, and JSON API standard
+  otherLinks: true
+  url:
+    thumb: /assets/img/projects/uapi-canvas.png
+  meta:
+    role: Frontend Developer
+    year: 2021 - 2022
+  tags:
+    - Multi-culture Team
+    - Vue 3
+    - Tailwind CSS
+    - Vuex
+    - JSON API
 
 - title: Budaya AI
   description: Text Analysis application to measure company cultures. It is almost like a SaaS, each order built specifically to be integrated to its own e-learning platform. The link you see here is a demo from the real application.
