@@ -1,3 +1,23 @@
+- title: Retail System
+	description: Building complete retail system from Sales, Customer Relationship, Reporting, and Inventory Management, on top of company's 20 years of experience in clothing retail industry. Introducing new technologies, and possibilties for exciting future.
+	url:
+		thumb:
+		main: https://revota.id
+	meta:
+		role: Product Manager
+		year: 2023
+	tags:
+		- Product Management
+		- React JS
+		- Nest JS
+		- Fast API
+		- Ant Design
+		- Figma
+		- Warehouse Management System
+		- POS
+		- Retail
+		- CRM
+
 - title: E-Jet
   description: This is an exciting product, it is not yet published so minimum details can only be written. a custom made aircraft made for Microsoft Flight Simulator. It is using web technology for its glass cockpits. 
   url:
@@ -23,7 +43,7 @@
     role: Frontend Developer
     year: 2021 - 2022
   tags:
-    - Multination Team
+    - Multi-culture Team
     - Vue 3
     - Tailwind CSS
     - Vuex
