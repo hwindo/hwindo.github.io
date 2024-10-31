@@ -1,0 +1,14 @@
+Calling `DidYouMean::SPELL_CHECKERS.merge!(error_name => spell_checker)' has been deprecated. Please call `DidYouMean.correct_error(error_name, spell_checker)' instead.
+Configuration file: /home/runner/work/hwindo.github.io/hwindo.github.io/_config.yaml
+   GitHub Metadata: site.name is set in _config.yml, but many plugins and themes expect site.title to be used instead. To avoid potential inconsistency, Jekyll GitHub Metadata will not set site.title to the repository's name.
+            Source: /home/runner/work/hwindo.github.io/hwindo.github.io
+       Destination: /home/runner/work/hwindo.github.io/hwindo.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+   GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
+   GitHub Metadata: Error processing value 'url':
+  Liquid Exception: No repo name found. Specify using PAGES_REPO_NWO environment variables, 'repository' in your configuration, or set up an 'origin' git remote pointing to your github.com repository. in blog/atom.xml
+             ERROR: YOUR SITE COULD NOT BE BUILT:
+                    ------------------------------------
+                    No repo name found. Specify using PAGES_REPO_NWO environment variables, 'repository' in your configuration, or set up an 'origin' git remote pointing to your github.com repository.
+Error: Process completed with exit code 1.

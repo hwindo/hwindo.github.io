@@ -1,0 +1,50 @@
+Run bundle exec jekyll build --baseurl ""
+Calling `DidYouMean::SPELL_CHECKERS.merge!(error_name => spell_checker)' has been deprecated. Please call `DidYouMean.correct_error(error_name, spell_checker)' instead.
+Configuration file: /home/runner/work/hwindo.github.io/hwindo.github.io/_config.yaml
+   GitHub Metadata: site.name is set in _config.yml, but many plugins and themes expect site.title to be used instead. To avoid potential inconsistency, Jekyll GitHub Metadata will not set site.title to the repository's name.
+            Source: /home/runner/work/hwindo.github.io/hwindo.github.io
+       Destination: /home/runner/work/hwindo.github.io/hwindo.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+jekyll 3.9.3 | Error:  (/home/runner/work/hwindo.github.io/hwindo.github.io/_data/project_list.yml): found a tab character that violate indentation while scanning a plain scalar at line 1 column 10
+/home/runner/work/hwindo.github.io/hwindo.github.io/vendor/bundle/ruby/3.1.0/gems/safe_yaml-1.0.5/lib/safe_yaml/load.rb:143:in `parse': (/home/runner/work/hwindo.github.io/hwindo.github.io/_data/project_list.yml): found a tab character that violate indentation while scanning a plain scalar at line 1 column 10 (Psych::SyntaxError)
+	from /home/runner/work/hwindo.github.io/hwindo.github.io/vendor/bundle/ruby/3.1.0/gems/safe_yaml-1.0.5/lib/safe_yaml/load.rb:143:in `load'
+	from /home/runner/work/hwindo.github.io/hwindo.github.io/vendor/bundle/ruby/3.1.0/gems/safe_yaml-1.0.5/lib/safe_yaml/load.rb:157:in `block in load_file'
+	from /home/runner/work/hwindo.github.io/hwindo.github.io/vendor/bundle/ruby/3.1.0/gems/safe_yaml-1.0.5/lib/safe_yaml/load.rb:157:in `open'
+	from /home/runner/work/hwindo.github.io/hwindo.github.io/vendor/bundle/ruby/3.1.0/gems/safe_yaml-1.0.5/lib/safe_yaml/load.rb:157:in `load_file'
+	from /home/runner/work/hwindo.github.io/hwindo.github.io/vendor/bundle/ruby/3.1.0/gems/jekyll-3.9.3/lib/jekyll/readers/data_reader.rb:66:in `read_data_file'
+	from /home/runner/work/hwindo.github.io/hwindo.github.io/vendor/bundle/ruby/3.1.0/gems/jekyll-3.9.3/lib/jekyll/readers/data_reader.rb:46:in `block in read_data_to'
+	from /home/runner/work/hwindo.github.io/hwindo.github.io/vendor/bundle/ruby/3.1.0/gems/jekyll-3.9.3/lib/jekyll/readers/data_reader.rb:38:in `each'
+	from /home/runner/work/hwindo.github.io/hwindo.github.io/vendor/bundle/ruby/3.1.0/gems/jekyll-3.9.3/lib/jekyll/readers/data_reader.rb:38:in `read_data_to'
+	from /home/runner/work/hwindo.github.io/hwindo.github.io/vendor/bundle/ruby/3.1.0/gems/jekyll-3.9.3/lib/jekyll/readers/data_reader.rb:20:in `read'
+	from /home/runner/work/hwindo.github.io/hwindo.github.io/vendor/bundle/ruby/3.1.0/gems/jekyll-3.9.3/lib/jekyll/reader.rb:18:in `read'
+	from /home/runner/work/hwindo.github.io/hwindo.github.io/vendor/bundle/ruby/3.1.0/gems/jekyll-3.9.3/lib/jekyll/site.rb:164:in `read'
+	from /home/runner/work/hwindo.github.io/hwindo.github.io/vendor/bundle/ruby/3.1.0/gems/jekyll-3.9.3/lib/jekyll/site.rb:69:in `process'
+	from /home/runner/work/hwindo.github.io/hwindo.github.io/vendor/bundle/ruby/3.1.0/gems/jekyll-3.9.3/lib/jekyll/command.rb:28:in `process_site'
+	from /home/runner/work/hwindo.github.io/hwindo.github.io/vendor/bundle/ruby/3.1.0/gems/jekyll-3.9.3/lib/jekyll/commands/build.rb:65:in `build'
+	from /home/runner/work/hwindo.github.io/hwindo.github.io/vendor/bundle/ruby/3.1.0/gems/jekyll-3.9.3/lib/jekyll/commands/build.rb:36:in `process'
+	from /home/runner/work/hwindo.github.io/hwindo.github.io/vendor/bundle/ruby/3.1.0/gems/jekyll-3.9.3/lib/jekyll/commands/build.rb:18:in `block (2 levels) in init_with_program'
+	from /home/runner/work/hwindo.github.io/hwindo.github.io/vendor/bundle/ruby/3.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `block in execute'
+	from /home/runner/work/hwindo.github.io/hwindo.github.io/vendor/bundle/ruby/3.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `each'
+	from /home/runner/work/hwindo.github.io/hwindo.github.io/vendor/bundle/ruby/3.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `execute'
+	from /home/runner/work/hwindo.github.io/hwindo.github.io/vendor/bundle/ruby/3.1.0/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in `go'
+	from /home/runner/work/hwindo.github.io/hwindo.github.io/vendor/bundle/ruby/3.1.0/gems/mercenary-0.3.6/lib/mercenary.rb:19:in `program'
+	from /home/runner/work/hwindo.github.io/hwindo.github.io/vendor/bundle/ruby/3.1.0/gems/jekyll-3.9.3/exe/jekyll:15:in `<top (required)>'
+	from /home/runner/work/hwindo.github.io/hwindo.github.io/vendor/bundle/ruby/3.1.0/bin/jekyll:25:in `load'
+	from /home/runner/work/hwindo.github.io/hwindo.github.io/vendor/bundle/ruby/3.1.0/bin/jekyll:25:in `<top (required)>'
+	from /opt/hostedtoolcache/Ruby/3.1.4/x64/lib/ruby/gems/3.1.0/gems/bundler-2.2.13/lib/bundler/cli/exec.rb:63:in `load'
+	from /opt/hostedtoolcache/Ruby/3.1.4/x64/lib/ruby/gems/3.1.0/gems/bundler-2.2.13/lib/bundler/cli/exec.rb:63:in `kernel_load'
+	from /opt/hostedtoolcache/Ruby/3.1.4/x64/lib/ruby/gems/3.1.0/gems/bundler-2.2.13/lib/bundler/cli/exec.rb:28:in `run'
+	from /opt/hostedtoolcache/Ruby/3.1.4/x64/lib/ruby/gems/3.1.0/gems/bundler-2.2.13/lib/bundler/cli.rb:494:in `exec'
+	from /opt/hostedtoolcache/Ruby/3.1.4/x64/lib/ruby/gems/3.1.0/gems/bundler-2.2.13/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+	from /opt/hostedtoolcache/Ruby/3.1.4/x64/lib/ruby/gems/3.1.0/gems/bundler-2.2.13/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+	from /opt/hostedtoolcache/Ruby/3.1.4/x64/lib/ruby/gems/3.1.0/gems/bundler-2.2.13/lib/bundler/vendor/thor/lib/thor.rb:392:in `dispatch'
+	from /opt/hostedtoolcache/Ruby/3.1.4/x64/lib/ruby/gems/3.1.0/gems/bundler-2.2.13/lib/bundler/cli.rb:30:in `dispatch'
+	from /opt/hostedtoolcache/Ruby/3.1.4/x64/lib/ruby/gems/3.1.0/gems/bundler-2.2.13/lib/bundler/vendor/thor/lib/thor/base.rb:485:in `start'
+	from /opt/hostedtoolcache/Ruby/3.1.4/x64/lib/ruby/gems/3.1.0/gems/bundler-2.2.13/lib/bundler/cli.rb:24:in `start'
+	from /opt/hostedtoolcache/Ruby/3.1.4/x64/lib/ruby/gems/3.1.0/gems/bundler-2.2.13/exe/bundle:49:in `block in <top (required)>'
+	from /opt/hostedtoolcache/Ruby/3.1.4/x64/lib/ruby/gems/3.1.0/gems/bundler-2.2.13/lib/bundler/friendly_errors.rb:130:in `with_friendly_errors'
+	from /opt/hostedtoolcache/Ruby/3.1.4/x64/lib/ruby/gems/3.1.0/gems/bundler-2.2.13/exe/bundle:37:in `<top (required)>'
+	from /opt/hostedtoolcache/Ruby/3.1.4/x64/bin/bundle:25:in `load'
+	from /opt/hostedtoolcache/Ruby/3.1.4/x64/bin/bundle:25:in `<main>'
+Error: Process completed with exit code 1.
