@@ -1,10 +1,13 @@
-name: Windo
+name: "Windo Web Developer"
+title: "Windo Web Developer"
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 highlighter: rouge
 
 sass:
-  sass_dir: _sass  
+  sass_dir: _sass
 collections:
   playground:
     output: true
+
+repository: "hwindo/hwindo.github.io"
