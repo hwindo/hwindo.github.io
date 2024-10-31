@@ -1,25 +1,25 @@
 - title: Retail System
-	description: Building complete retail system from Sales, Customer Relationship, Reporting, and Inventory Management, on top of company's 20 years of experience in clothing retail industry. Introducing new technologies, and possibilties for exciting future.
-	url:
-		thumb: /assets/img/projects/Revota-restock-landing-page.png
-		main: https://revota.id
-	meta:
-		role: Product Manager
-		year: 2023
-	tags:
-		- Product Management
-		- React JS
-		- Nest JS
-		- Fast API
-		- Ant Design
-		- Figma
-		- Warehouse Management System
-		- POS
-		- Retail
-		- CRM
+  description: Building complete retail system from Sales, Customer Relationship, Reporting, and Inventory Management, on top of company's 20 years of experience in clothing retail industry. Introducing new technologies, and possibilties for exciting future.
+  url:
+    thumb: /assets/img/projects/Revota-restock-landing-page.png
+    main: https://revota.id
+  meta:
+    role: Product Manager
+    year: 2023
+  tags:
+    - Product Management
+    - React JS
+    - Nest JS
+    - Fast API
+    - Ant Design
+    - Figma
+    - Warehouse Management System
+    - POS
+    - Retail
+    - CRM
 
 - title: E-Jet
-  description: This is an exciting product, it is not yet published so minimum details can only be written. a custom made aircraft made for Microsoft Flight Simulator. It is using web technology for its glass cockpits. 
+  description: This is an exciting product, it is not yet published so minimum details can only be written. a custom made aircraft made for Microsoft Flight Simulator. It is using web technology for its glass cockpits.
   url:
     thumb: /assets/img/projects/e-jet-dev.jpg
   meta:
@@ -86,7 +86,7 @@
   otherLinks: true
   url:
     main: https://qopnet.id/
-    site: https://qopnet.id/ 
+    site: https://qopnet.id/
     thumb: /assets/img/projects/qopnet-homepage.png
   meta:
     role: Tech Lead
@@ -97,7 +97,6 @@
     - Typescript
     - Python
     - Flask
-    
 
 - title: PartsSearch
   description: A web app for Car repairers and Parts Suppliers, based in Australia - My role was a Vue/HTML/CSS developer
@@ -117,7 +116,7 @@
     - Bootstrap-Vue
 
 - title: Cosmo
-  description: An auto-reward App for restaurants in the US market, build almost everything from the Node JS server, IOS Apps (using webview a lot), merchant dashboard, SMS Application, web scraping, API consuming for various delivery app service/ordering service, and email templates. 
+  description: An auto-reward App for restaurants in the US market, build almost everything from the Node JS server, IOS Apps (using webview a lot), merchant dashboard, SMS Application, web scraping, API consuming for various delivery app service/ordering service, and email templates.
   otherLinks: true
   url:
     main: https://rest-o-client.netlify.app/
@@ -169,7 +168,6 @@
     - Django
     - BEM
 
-
 - title: Star-W
   description: A resource catalog, built using React
   otherLinks: true
@@ -187,7 +185,6 @@
     - API
     - SPA
 
-
 - title: React-Exchange
   description: A currency converter Web App (Single Page Application) built using React.
   otherLinks: true
@@ -203,7 +200,6 @@
     - React
     - API
     - SPA
-
 
 - title: Dailynote
   description: This is my personal project, built to track our daily activities so you can review them later.
@@ -221,7 +217,6 @@
     - Vuex
     - Vue-Router
     - Firebase
-
 
 - title: Responsive Web Design Projects
   description: This is a collection of responsive web pages, built for for my Responsive Web Design Certification.
@@ -244,18 +239,18 @@
     - Certification
 
 - title: APIs and Microservices Projects
-  description: 
+  description:
     This is my attemp to get APIs and Microservices Developer Certification, this certificate representing approximately 300 hours of coursework.
     In this project, I build microservices using Node JS and mongoDB using glitch.me and visual studio code, it was a fun project.
-    
+
     Here are links to services
-      <ul>
-        <li><a href="https://hill-experience.glitch.me" target="_blank">&check; timestamp</a></li>
-        <li><a href="https://hissing-reaper.glitch.me" target="_blank">&check; Header Parser</a></li>
-        <li><a href="https://smooth-pine.glitch.me" target="_blank">&check; URL Shortener</a></li>
-        <li><a href="https://dear-jelly.glitch.me" target="_blank">&check; Exercise Tracker</a></li>
-        <li><a href="https://pyrite-croissant.glitch.me" target="_blank">&check; File Metadata</a></li>
-      </ul>
+    <ul>
+    <li><a href="https://hill-experience.glitch.me" target="_blank">&check; timestamp</a></li>
+    <li><a href="https://hissing-reaper.glitch.me" target="_blank">&check; Header Parser</a></li>
+    <li><a href="https://smooth-pine.glitch.me" target="_blank">&check; URL Shortener</a></li>
+    <li><a href="https://dear-jelly.glitch.me" target="_blank">&check; Exercise Tracker</a></li>
+    <li><a href="https://pyrite-croissant.glitch.me" target="_blank">&check; File Metadata</a></li>
+    </ul>
     nice laptop thumbnail credits - <a href="https://unsplash.com/photos/95YRwf6CNw8" target="_blank">Clément H</a>
   otherLinks: true
   url:
@@ -276,8 +271,7 @@
     - mongoDB
 
 - title: Javascript Algorithm and Data Structure Certification Projects
-  description: 
-    A collection of project that representing 300 hours of coursework, by working on this course I learn how to become more efficient developer by understanding algorithms and data structures
+  description: A collection of project that representing 300 hours of coursework, by working on this course I learn how to become more efficient developer by understanding algorithms and data structures
   meta:
     role: Javascript Developer
     year: 2018
@@ -311,7 +305,6 @@
     - Firebase
     - Brand Identity & Logo Design
 
-
 - title: Lombok Info App
   description: Android App to help travellers when visiting Lombok. The app was not in the playstore anymore, but you can download the APK using the link above.
   otherLinks: true
@@ -331,10 +324,9 @@
     - cordova
     - apache cordova
 
-
 - title: Portfolio Landing Page
   description: This is a personal landing page to showcase portfolio list, built in codepen.io as part of Responsive
-                Web Design certification project.
+    Web Design certification project.
   meta:
     role: Front-End Developer
     year: 2018
@@ -348,4 +340,4 @@
   url:
     main: https://codepen.io/windo/full/xJNwNa
     thumb: /assets/img/projects/windo-portfolio-landing-page.png
-    codepen: https://codepen.io/windo/full/xJNwNa  
+    codepen: https://codepen.io/windo/full/xJNwNa
